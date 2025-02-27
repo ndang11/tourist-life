@@ -109,28 +109,31 @@ export default function HomePage() {
         </div>
       </section>
       <section>
-      <SectionHeading
+        <SectionHeading
           title="Our Traveller Say"
           heading="What our clients say about us"
         />
       </section>
-      <section>
+      <section className="client">
         <div className="client-info">
-            <ClientCard 
-                image="/images/Ellipse profile-img.png"
-                title="Emma Waston"
-                description="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
-            />
-             <ClientCard 
-                image="/images/Ellipse profile-img.png"
-                title="Emma Waston"
-                description="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
-            />
-             <ClientCard 
-                image="/images/Ellipse profile-img.png"
-                title="Emma Waston"
-                description="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
-            />
+          <ClientCard
+            image="/images/Ellipse profile-img.png"
+            title="Emma Waston"
+            description="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
+          />
+          <ClientCard
+            image="/images/Ellipse profile-img.png"
+            title="Emma Waston"
+            description="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
+          />
+          <ClientCard
+            image="/images/Ellipse profile-img.png"
+            title="Emma Waston"
+            description="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
+          />
+        </div>
+        <div className="dash">
+          <img src="/images/dash.png" alt="slider" />
         </div>
       </section>
     </>

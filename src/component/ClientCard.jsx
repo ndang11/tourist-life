@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 export default function ClientCard({image, title, description}) {
   return (
     <>
-      <div className="card-item " id="destination-card">
-        <img src={image} alt="image" className="destination-img" />
-        <div className="destination-detail">
-          <h3 className="package-title">{title}</h3>
-          <p className="package-p">{description}</p>
+      <div className="client-item " id="detail-card">
+        <img src={image} alt="image" className="client-img" />
+        <div className="profile-detail">
+          <h3 className="card-title">{title}</h3>
+          <p className="card-p">{description}</p>
         </div>
       </div>
     </>
