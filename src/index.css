@@ -358,7 +358,15 @@ select {
   margin-bottom: 30px;
 }
 
-.sec-1 {
+.card-about-details {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.sec-1,
+.sec-2,
+.sec-3 {
   display: flex;
 }
 
@@ -370,6 +378,24 @@ select {
 
 /* tour page styling */
 .travel {
+  display: flex;
+  flex-direction: column;
+}
+
+.pac-1 {
+  display: flex;
+  gap: 60px;
+margin: auto;
+}
+
+.package-card1 {
+ display: flex;
+ gap: 60px;
+ margin: auto;
+ margin-top: 20px;
+}
+
+.package-card {
   display: flex;
   flex-direction: column;
 }

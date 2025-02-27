@@ -7,22 +7,24 @@ export default function PackagePage() {
       <Hero />
       <section>
         <div className="package-card">
-          <PackageCard
-            image="/images/giraff.png"
-            title="Akagera National Park"
-            description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
-          />
-          <PackageCard
-            image="/images/lakeside.png"
-            title="Bisoke Hike"
-            description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
-          />
-          <PackageCard
-            image="/images/river.png"
-            title="Lake Kivu trip"
-            description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
-          />
-          <div className="package-card">
+          <div className="pac-1">
+            <PackageCard
+              image="/images/giraff.png"
+              title="Akagera National Park"
+              description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
+            />
+            <PackageCard
+              image="/images/lakeside.png"
+              title="Bisoke Hike"
+              description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
+            />
+            <PackageCard
+              image="/images/river.png"
+              title="Lake Kivu trip"
+              description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
+            />
+          </div>
+          <div className="package-card1">
             <PackageCard
               image="/images/giraff.png"
               title="Akagera National Park"
