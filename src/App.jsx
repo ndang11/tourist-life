@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage'
 import Header from './component/Header'
 import Banner from './component/Banner'
 import './App.css'
+import Footer from './component/Footer'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Route path='/contact' element={<ContactPage/>} />
     </Routes>
     </BrowserRouter>
+    <Footer/>
    
     </>
   )

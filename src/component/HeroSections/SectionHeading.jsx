@@ -4,7 +4,7 @@ export default function SectionHeading({ title, heading }) {
   return (
     <>
       <div className="headline">
-        <h5 className={`h5 ${title}`}></h5>
+        <h4 className="section-heading">{title}</h4>
         <h2>{heading}</h2>
       </div>
     </>

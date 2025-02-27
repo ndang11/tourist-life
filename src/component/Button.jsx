@@ -3,9 +3,11 @@ import Proptypes from "prop-types";
 export default function Button({ onClick, label, style = "primary" }) {
   return (
     <>
-      <button className={`button ${style}`} onClick={onClick}>
-        {label}
-      </button>
+      <div className="button">
+        <button className={`button ${style}`} onClick={onClick}>
+          {label}
+        </button>
+      </div>
     </>
   );
 }
