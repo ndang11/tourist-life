@@ -17,6 +17,12 @@ export default function HomePage() {
           heading="Select your Best Package for your Travel"
         />
       </section>
+      <section>
+      <div className="arrow-right">
+          <img src="/images/Button-direc1.png" alt="image" />
+          <img src="/images/Button-direc2.png" alt="image" />
+        </div>
+      </section>
       <section className="package-section">
         <div className="package-card">
           <PackageCard
@@ -60,7 +66,7 @@ export default function HomePage() {
           heading="Select Our Best Popular Destinations"
         />
       </section>
-      <section>
+      <section className="section-destination">
         <div className="destination-card">
           <DestinationCard
             image="/images/kigali-img.png"

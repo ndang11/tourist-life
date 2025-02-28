@@ -1,8 +1,7 @@
-import Button from "./Button";
+import Button from "./Button"
 
-export default function Search() {
-  return (
-    <>
+export default function AboutSearch(){
+    return<>
       <div className="search-bar">
         <div className="search-info">
           <input type="text" placeholder="Search" className="input" />
@@ -24,5 +23,4 @@ export default function Search() {
         <Button label="Book Now" />
       </div>
     </>
-  );
 }

@@ -1,10 +1,17 @@
 import Hero from "../component/HeroSections/Hero";
+import SectionHeading from "../component/HeroSections/SectionHeading";
 import PackageCard from "../component/PackageCard";
 
 export default function PackagePage() {
   return (
     <>
       <Hero />
+      <section>
+        <SectionHeading
+          title="Choose your Package"
+          heading="Select your Best Package for your Travel"
+        />
+      </section>
       <section>
         <div className="pac-1">
           <PackageCard
@@ -73,6 +80,12 @@ export default function PackagePage() {
             title="Lake Kivu trip"
             description="Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks."
           />
+        </div>
+      </section>
+      <section>
+        <div className="arrow">
+          <img src="/images/Button-direc1.png" alt="image" />
+          <img src="/images/Button-direc2.png" alt="image" />
         </div>
       </section>
     </>
