@@ -1,24 +1,25 @@
 import AboutSearch from "../component/AboutSearch";
 import AboutHero from "../component/HeroSections/AboutHero";
 
-
 export default function AboutPage() {
   return (
     <>
-      <section className="travel">
+      <div className="travel">
         <div className="about-page">
           <AboutHero
             title="We are dedicated to 
-providing the best travel experience."
+             providing the best travel experience."
             description="Discover the Land of a Thousand Hills"
             image="/images/about-img-header.png"
           />
         </div>
-        <AboutSearch/>
-      </section>
+        <AboutSearch />
+      </div>
       <section>
-        <AboutHero title="Welcome to Africa Wizzy Safari" />
-        <img src="/images/Line 2.png" alt="line" />
+        <div className="heading-h1">
+          <h2 className="about-heading">Welcome to Africa Wizzy Safari</h2>
+          <img src="/images/Line 2.png" alt="line" />
+        </div>
       </section>
       <section>
         <div className="card-about-details">

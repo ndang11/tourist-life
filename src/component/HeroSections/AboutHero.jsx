@@ -9,7 +9,7 @@ export default function AboutHero({ title, description, image }) {
           <p className="about-graph">{description}</p>
         </div>
         <div className="img-about">
-          <img src={image} alt="image" />
+          <img src={image} alt="" />
         </div>
       </div>
     </>

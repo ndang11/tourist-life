@@ -230,6 +230,11 @@ button {
   align-items: flex-start;
 }
 
+#secondary-button {
+  background-color: #304f47;
+  color: #fff;
+}
+
 /* hero section style */
 .hero-section {
   width: 100%;
@@ -251,6 +256,30 @@ button {
   border-radius: 4px;
   gap: 16px;
   justify-content: space-between;
+}
+
+.search-tap {
+  background-color: #fff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  width: 816px;
+  border-radius: 4px;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: -170px;
+  margin-bottom: 130px;
+  margin-left: 50px;
+}
+
+.guest-holder,
+.date-holder,
+.package-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px;
+  align-items: flex-start;
 }
 
 .search-info {
@@ -324,21 +353,29 @@ select {
 /* about page styling */
 .about-main {
   display: flex;
+  width: 1280px;
   justify-content: space-between;
 }
 
-.headline h1 {
+.about-page {
+  width: 1280px;
+  margin: auto;
+}
+
+.heading-h1 {
   font-family: Lora;
   font-weight: 700;
   font-size: 62px;
   line-height: 74.4px;
   letter-spacing: 0.3%;
   text-align: center;
+  justify-items: center;
 }
 
 .img-about {
   z-index: -1;
   margin-top: -190px;
+  width: 500px;
 }
 
 .about-graph {
@@ -363,7 +400,21 @@ select {
   height: 205px;
   top: 238.51px;
   left: 68px;
+  margin-top: 40px;
   margin-bottom: 30px;
+}
+
+#about-guest,
+#about-package,
+#about-date {
+  color: #000;
+}
+
+.span-date,
+.guest-span,
+.span-package {
+  color: #afabab;
+  padding-left: 4px;
 }
 
 .card-about-details {
@@ -436,6 +487,12 @@ select {
   margin: auto;
   justify-content: right;
   gap: 16px;
+}
+
+/* tour package hero heading styling */
+.tour-pac {
+  text-align: center;
+  margin-top: -400px;
 }
 
 /* styling gallery */

@@ -1,26 +1,39 @@
-import Button from "./Button"
+// import Button from "./Button";
 
-export default function AboutSearch(){
-    return<>
-      <div className="search-bar">
-        <div className="search-info">
-          <input type="text" placeholder="Search" className="input" />
-          <div className="select">
-            <select name="user" id="guest">
-              <p>Guest</p>
-              <option value="user">Adult</option>
+export default function AboutSearch() {
+  return (
+    <>
+      <div className="search-tap">
+        <div className="select">
+          <div className="guest-holder">
+            <span className="guest-span">Guest</span>
+            <select name="user" id="about-guest">
+              <option value="user" className="adult">
+                Adult
+              </option>
             </select>
-            <select name="date" id="date">
-              <p>Date</p>
-              <option value="Calender">12-13 April 2022</option>
+          </div>
+          <div className="date-holder">
+            <span className="span-date"> Date</span>
+            <select name="date" id="about-date">
+              <option value="Calender" className="calendar">
+                12-13 April 2022
+              </option>
             </select>
-            <select name="package" id="package">
-              <p>Packages</p>
-              <option value="package">All</option>
+          </div>
+          <div className="package-holder">
+            <span className="span-package"> Package</span>
+            <select name="package" id="about-package">
+              <option value="package" className="package-option">
+                Akagera Tour
+              </option>
             </select>
           </div>
         </div>
-        <Button label="Book Now" />
+        <button className="button" id="secondary-button">
+          Book Now
+        </button>
       </div>
     </>
+  );
 }

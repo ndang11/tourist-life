@@ -1,4 +1,5 @@
 import Hero from "../component/HeroSections/Hero";
+import HeroSectionHeading from "../component/HeroSections/HeroSectionHeading";
 import SectionHeading from "../component/HeroSections/SectionHeading";
 import PackageCard from "../component/PackageCard";
 
@@ -6,6 +7,14 @@ export default function PackagePage() {
   return (
     <>
       <Hero />
+      <section>
+        <HeroSectionHeading
+          title="Tour Package"
+          name="Home"
+          image="/images/Vector (1).png"
+          description="Tour Package"
+        />
+      </section>
       <section>
         <SectionHeading
           title="Choose your Package"
