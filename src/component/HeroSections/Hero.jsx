@@ -1,4 +1,4 @@
-import Search from "../Search";
+// import Search from "../Search";
 
 export default function Hero() {
   return (
@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="hero-overlay">
       <div className="hero-section">
       </div>
-      <Search/>
+      {/* <Search/> */}
       </div>
     </>
   );

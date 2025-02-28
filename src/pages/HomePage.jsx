@@ -4,11 +4,13 @@ import PackageCard from "../component/PackageCard";
 import DestinationCard from "../component/DestinationCard";
 import OptionCard from "../component/OptionCard";
 import ClientCard from "../component/ClientCard";
+import Search from "../component/Search";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
+      <Search/>
       <section>
         <SectionHeading
           title="Choose your Package"
