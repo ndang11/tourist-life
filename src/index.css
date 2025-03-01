@@ -528,6 +528,56 @@ select {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* styling contact page */
+.submit-detail {
+  border: 1px solid black;
+  margin: 5px auto;
+  padding: 15px;
+  justify-content: flex-start;
+  width: 730px;
+  height: 500px;
+  border-width: 1px;
+  border-radius: 8px;
+
+  h5 {
+    margin-top: 8px;
+    width: 111px;
+    height: 25px;
+    top: 1227px;
+    left: 263px;
+  }
+}
+
+.name-info {
+  display: flex;
+  gap: 3rem;
+}
+
+#name,
+#last {
+  /* width: 120%;
+  height: 25px;
+  border-radius: 3px;
+  border: transparent;
+  border: 1px solid black; */
+  width: 316px;
+  height: 30px;
+  top: 1163px;
+  left: 250px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#email,
+#phone {
+  width: 680px;
+  height: 30px;
+  top: 1227px;
+  left: 263px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
 /* footer styles */
 footer {
   width: 100%;
