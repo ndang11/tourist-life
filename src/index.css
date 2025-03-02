@@ -493,6 +493,22 @@ select {
 .tour-pac {
   text-align: center;
   margin-top: -400px;
+  text-align: start;
+}
+
+.tour-1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  font-weight: 900;
+  color: rgb(206, 143, 27);
+  padding: 5px;
+  font-size: 22px;
+}
+
+.sec-title {
+  color: black;
+  margin-left: 4px;
 }
 
 /* styling gallery */

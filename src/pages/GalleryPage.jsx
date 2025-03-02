@@ -1,5 +1,6 @@
 import Hero from "../component/HeroSections/Hero";
 import Button from "../component/Button";
+import HeroSectionHeading from "../component/HeroSections/HeroSectionHeading";
 
 export default function GalleryPage() {
   const imageItem1 = [
@@ -110,6 +111,14 @@ export default function GalleryPage() {
   return (
     <>
       <Hero />
+       <section>
+              <HeroSectionHeading
+                title="Gallery"
+                name="Home"
+                image="/images/Vector (1).png"
+                description="Gallery"
+              />
+            </section>
       <section>
         <div className="gallery">
           <Button label="Open Instagram" />

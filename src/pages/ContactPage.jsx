@@ -1,10 +1,19 @@
 import Button from "../component/Button";
 import Hero from "../component/HeroSections/Hero";
+import HeroSectionHeading from "../component/HeroSections/HeroSectionHeading";
 
 export default function ContactPage() {
   return (
     <>
       <Hero />
+       <section>
+              <HeroSectionHeading
+                title="Contact"
+                name="Home"
+                image="/images/Vector (1).png"
+                description="Contact"
+              />
+            </section>
       <section>
         <div className="contact-head">
           <h1>Get in Touch</h1>
