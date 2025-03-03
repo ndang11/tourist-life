@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <Search/>
+      <Search />
       <section>
         <SectionHeading
           title="Choose your Package"
@@ -18,7 +18,7 @@ export default function HomePage() {
         />
       </section>
       <section>
-      <div className="arrow-right">
+        <div className="arrow-right">
           <img src="/images/Button-direc1.png" alt="image" />
           <img src="/images/Button-direc2.png" alt="image" />
         </div>
@@ -84,7 +84,7 @@ export default function HomePage() {
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit."
           />
           <DestinationCard
-            image="/images/musanze-img.png"
+            image="/images/huye-img.png"
             title="Musanze"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit."
           />

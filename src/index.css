@@ -269,7 +269,7 @@ button {
   justify-content: space-between;
   margin-top: -170px;
   margin-bottom: 130px;
-  margin-left: 50px;
+  margin-left: 90px;
 }
 
 .guest-holder,
@@ -375,7 +375,7 @@ select {
 .img-about {
   z-index: -1;
   margin-top: -190px;
-  width: 500px;
+  width: 470px;
 }
 
 .about-graph {
@@ -390,6 +390,7 @@ select {
   display: flex;
   flex-direction: column;
 }
+
 .about-title {
   font-family: Lora;
   font-weight: 700px;
@@ -550,10 +551,16 @@ select {
   margin: 5px auto;
   padding: 15px;
   justify-content: flex-start;
-  width: 730px;
+  width: 710px;
   height: 500px;
   border-width: 1px;
   border-radius: 8px;
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 
   h5 {
     margin-top: 8px;
@@ -571,17 +578,13 @@ select {
 
 #name,
 #last {
-  /* width: 120%;
-  height: 25px;
-  border-radius: 3px;
-  border: transparent;
-  border: 1px solid black; */
   width: 316px;
   height: 30px;
   top: 1163px;
   left: 250px;
   border-width: 1px;
   border-radius: 5px;
+  padding: 4px;
 }
 
 #email,
@@ -592,6 +595,29 @@ select {
   left: 263px;
   border-width: 1px;
   border-radius: 5px;
+  padding: 4px;
+}
+
+#message {
+  padding: 4px;
+  width: 100%;
+  line-height: 65px;
+  border-radius: 5px;
+}
+
+.contact-head {
+  text-align: center;
+  margin-top: -100px;
+
+  h1 {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  p {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
 }
 
 /* footer styles */
