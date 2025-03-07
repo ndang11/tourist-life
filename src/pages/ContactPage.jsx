@@ -1,19 +1,21 @@
+
 import Button from "../component/Button";
 import Hero from "../component/HeroSections/Hero";
 import HeroSectionHeading from "../component/HeroSections/HeroSectionHeading";
+import SocialMedia from "../component/SocialMedia";
 
 export default function ContactPage() {
   return (
     <>
       <Hero />
-       <section>
-              <HeroSectionHeading
-                title="Contact"
-                name="Home"
-                image="/images/Vector (1).png"
-                description="Contact"
-              />
-            </section>
+      <section>
+        <HeroSectionHeading
+          title="Contact"
+          name="Home"
+          image="/images/Vector (1).png"
+          description="Contact"
+        />
+      </section>
       <section>
         <div className="contact-head">
           <h1>Get in Touch</h1>
@@ -77,7 +79,36 @@ export default function ContactPage() {
                 placeholder="Write a message"
               ></textarea>
             </div>
-            <Button label="Submit"/>
+            <Button label="Submit" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="info-media">
+          <div className="social-media">
+            <h3>Social media</h3>
+            {/* <span>
+              <img src="/images/facebook.png" alt="" />
+              <img src="/images/twitter.png" alt="" />
+              <img src="/images/linkin.png" alt="" />
+              <img src="/images/insta.png" alt="" />
+            </span> */}
+            <SocialMedia/>
+          </div>
+          <div className="email-phone-info">
+            <h3>Email & phone</h3>
+            <div className="phone-contact">
+              <img src="/images/phone.png" alt="phone" />
+              <span>+255 791 844 342</span>
+            </div>
+            <div className="email-contact">
+              <img src="/images/email.png" alt="email" />
+              <span>rebaseproject@gmail.com</span>
+            </div>
+          </div>
+          <div className="address-info">
+            <h3>Address</h3>
+            <p>kk 600 Kigali, Rwanda</p>
           </div>
         </div>
       </section>

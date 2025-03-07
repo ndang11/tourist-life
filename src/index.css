@@ -620,6 +620,39 @@ select {
   }
 }
 
+.info-media {
+  display: flex;
+  gap: 25px;
+ align-items: flex-start;
+ margin: auto;
+}
+
+.social-media1 {
+gap: 5px;
+
+}
+
+.phone-contact{
+  gap: 5px;
+  padding: 4px;
+}
+
+.email-phone-info {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 15vh;
+  padding: 5px;
+}
+
+.address-info {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 15vh;
+  padding: 5px;
+}
+
 /* footer styles */
 footer {
   width: 100%;
