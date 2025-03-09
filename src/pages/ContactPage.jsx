@@ -2,7 +2,6 @@
 import Button from "../component/Button";
 import Hero from "../component/HeroSections/Hero";
 import HeroSectionHeading from "../component/HeroSections/HeroSectionHeading";
-import SocialMedia from "../component/SocialMedia";
 
 export default function ContactPage() {
   return (
@@ -85,15 +84,14 @@ export default function ContactPage() {
       </section>
       <section>
         <div className="info-media">
-          <div className="social-media">
+          <div className="social-media1">
             <h3>Social media</h3>
-            {/* <span>
+            <span>
               <img src="/images/facebook.png" alt="" />
               <img src="/images/twitter.png" alt="" />
               <img src="/images/linkin.png" alt="" />
               <img src="/images/insta.png" alt="" />
-            </span> */}
-            <SocialMedia/>
+            </span>
           </div>
           <div className="email-phone-info">
             <h3>Email & phone</h3>

@@ -623,16 +623,20 @@ select {
 .info-media {
   display: flex;
   gap: 25px;
- align-items: flex-start;
- margin: auto;
+  align-items: flex-start;
+  margin: auto;
 }
 
 .social-media1 {
-gap: 5px;
-
+  width: 300px;
+  height: 157px;
+  top: 1797px;
+  left: 496px;
+  border-radius: 30px;
+  border-width: 1px;
 }
 
-.phone-contact{
+.phone-contact {
   gap: 5px;
   padding: 4px;
 }
