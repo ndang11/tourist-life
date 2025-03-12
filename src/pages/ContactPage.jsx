@@ -1,4 +1,3 @@
-
 import Button from "../component/Button";
 import Hero from "../component/HeroSections/Hero";
 import HeroSectionHeading from "../component/HeroSections/HeroSectionHeading";
@@ -87,7 +86,7 @@ export default function ContactPage() {
           <div className="social-media1">
             <h3>Social media</h3>
             <span>
-              <img src="/images/facebook.png" alt="" />
+              <img src="/images/facebook.png" alt="icon" />
               <img src="/images/twitter.png" alt="" />
               <img src="/images/linkin.png" alt="" />
               <img src="/images/insta.png" alt="" />
@@ -95,18 +94,18 @@ export default function ContactPage() {
           </div>
           <div className="email-phone-info">
             <h3>Email & phone</h3>
-            <div className="phone-contact">
+            <div className="phone-contact1">
               <img src="/images/phone.png" alt="phone" />
               <span>+255 791 844 342</span>
             </div>
-            <div className="email-contact">
+            <div className="email-contact1">
               <img src="/images/email.png" alt="email" />
               <span>rebaseproject@gmail.com</span>
             </div>
           </div>
           <div className="address-info">
             <h3>Address</h3>
-            <p>kk 600 Kigali, Rwanda</p>
+            <p>kk 600 <br/>Kigali, Rwanda</p>
           </div>
         </div>
       </section>

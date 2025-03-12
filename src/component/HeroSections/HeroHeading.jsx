@@ -4,11 +4,10 @@ export default function HeroHeading({ title, description, image, name }) {
   return (
     <>
       <h2 className="sub-heading">{title}</h2>
-      <div className="content">
-        <p className="hero-paragraph">{description}</p>
-        <img src={image} alt="image" />
-        <h5 className="heading5">{name}</h5>
-      </div>
+      <div className="content"></div>
+      <p className="hero-paragraph">{description}</p>
+      <img src={image} alt="image" />
+      <h5 className="heading5">{name}</h5>
     </>
   );
 }

@@ -36,6 +36,37 @@ h2 {
   font-weight: 500;
 }
 
+.pic {
+  position: absolute;
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0.5%;
+  width: 354px;
+  height: 25px;
+  top: 527px;
+  left: 136px;
+  margin-bottom: -80px;
+  color: white;
+}
+
+.header-info1 h1 {
+  font-family: Lora;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  letter-spacing: 0.3%;
+  position: absolute;
+  color: white;
+  bottom: 50px;
+  left: 145px;
+  width: 669px;
+  height: 148px;
+  top: 362px;
+  left: 136px;
+}
+
 .card-item {
   display: flex;
   flex-direction: column;
@@ -238,7 +269,7 @@ button {
 /* hero section style */
 .hero-section {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   background-image: url("/images/hero-background-img.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -547,7 +578,7 @@ select {
 
 /* styling contact page */
 .submit-detail {
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 5px auto;
   padding: 15px;
   justify-content: flex-start;
@@ -555,6 +586,7 @@ select {
   height: 500px;
   border-width: 1px;
   border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
   h3 {
     font-size: 25px;
@@ -623,38 +655,102 @@ select {
 .info-media {
   display: flex;
   gap: 25px;
-  align-items: flex-start;
-  margin: auto;
+
+  span {
+    font-weight: 700;
+  }
 }
 
 .social-media1 {
-  width: 300px;
+  width: 270px;
   height: 157px;
   top: 1797px;
   left: 496px;
   border-radius: 30px;
-  border-width: 1px;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 4px;
+
+  h3 {
+    justify-content: flex-start;
+    margin: 20px;
+    margin-top: 20px;
+  }
 }
 
-.phone-contact {
-  gap: 5px;
+span img {
+  background: #000;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+.phone-contact1 {
+ justify-content: space-between;
+ padding: 5px;
+}
+
+.phone-contact1 img {
+  background: #000;
+  height: 23px;
+  width: 23px;
+  border-radius: 5px;
+  margin-left: 20px;
   padding: 4px;
 }
 
 .email-phone-info {
-  box-sizing: border-box;
-  border: 1px solid black;
-  border-radius: 5px;
-  height: 15vh;
-  padding: 5px;
+  width: 270px;
+  height: 157px;
+  top: 1797px;
+  left: 496px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 4px;
+
+  h3 {
+    justify-content: flex-start;
+    margin: 20px;
+    margin-top: 20px;
+  }
+}
+
+.email-contact1 {
+  margin-left: 20px;
+
+  img {
+    background: #000;
+    height: 23px;
+    width: 26px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 3px;
+  }
+
+  span {
+    align-items: center;
+  }
 }
 
 .address-info {
-  box-sizing: border-box;
-  border: 1px solid black;
-  border-radius: 5px;
-  height: 15vh;
-  padding: 5px;
+  width: 270px;
+  height: 157px;
+  top: 1797px;
+  left: 496px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 4px;
+
+  h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-left: 20px;
+  }
 }
 
 /* footer styles */
@@ -733,7 +829,7 @@ footer {
   width: 900px;
   border-radius: 8px;
   border: none;
-  color: white;
+  color: black;
   padding: 4px;
 }
 
