@@ -20,7 +20,6 @@ export default function Banner() {
         </div>
         <SocialMedia />
       </div>
-      
     </>
   );
 }
