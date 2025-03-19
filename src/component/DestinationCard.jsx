@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 export default function DestinationCard({ image, title, description }) {
   return (
     <>
-      <div className="card-item " id="destination-card">
+      <div className="card-item1 " id="destination-card">
         <img src={image} alt="image" className="destination-img" />
         <div className="destination-detail">
           <h3 className="package-title">{title}</h3>

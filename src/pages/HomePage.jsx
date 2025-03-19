@@ -10,13 +10,13 @@ import HeaderTitle from "../component/HeroSections/HeaderTitle";
 export default function HomePage() {
   return (
     <>
+      <Hero />
       <section>
         <HeaderTitle
           title="Experience the beauty of Rwanda with us"
           description="Discover the Land of a Thousand Hills"
         />
       </section>
-      <Hero />
       <Search />
       <section>
         <SectionHeading

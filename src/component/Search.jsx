@@ -5,7 +5,7 @@ export default function Search() {
     <>
       <div className="search-bar">
         <div className="search-info">
-          <input type="text" placeholder="Search" className="input" />
+          <input type="text" placeholder="Search activities or Destinations" className="input" />
           <div className="select">
             <select name="user" id="guest">
               <p>Guest</p>

@@ -11,7 +11,7 @@ body {
 
 /* section style */
 section {
-  margin-top: 32px;
+  margin-top: 25px;
   padding-block: 40px;
   color: black;
   display: flex;
@@ -23,6 +23,7 @@ section {
 .headline {
   width: 450px;
   text-align: center;
+  margin-top: -8%;
 }
 
 h2 {
@@ -36,35 +37,37 @@ h2 {
   font-weight: 500;
 }
 
-.pic {
-  position: absolute;
-  font-family: Mulish;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 125%;
-  letter-spacing: 0.5%;
-  width: 354px;
-  height: 25px;
-  top: 527px;
-  left: 136px;
-  margin-bottom: -80px;
-  color: white;
-}
-
-.header-info1 h1 {
-  font-family: Lora;
-  font-weight: 700;
-  font-size: 62px;
-  line-height: 120%;
-  letter-spacing: 0.3%;
-  position: absolute;
-  color: white;
-  bottom: 50px;
-  left: 145px;
-  width: 669px;
-  height: 140px;
-  top: 362px;
-  left: 136px;
+.header-info1 {
+  margin-top: -40%;
+  margin-right: 30%;
+  h1 {
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%;
+    letter-spacing: 0.3%;
+    color: white;
+    bottom: 50px;
+    left: 145px;
+    width: 680px;
+    height: 140px;
+    top: 362px;
+    left: 140px;
+  }
+  p {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.5%;
+    width: 354px;
+    height: 25px;
+    top: 527px;
+    left: 136px;
+    margin-bottom: -80px;
+    color: white;
+    margin-top: 20px;
+  }
 }
 
 .card-item {
@@ -79,7 +82,15 @@ h2 {
   border-width: 1px;
   border-radius: 8px;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-item1 {
+  width: 350px;
+  height: 550px;
+  top: 1282px;
+  left: 105px;
 }
 
 .package-p {
@@ -284,6 +295,7 @@ button {
   align-items: center;
   width: 1080px;
   margin: -20px auto;
+  margin-top: -10%;
   border-radius: 4px;
   gap: 16px;
   justify-content: space-between;
@@ -323,6 +335,7 @@ button {
   padding: 8px;
   border: 0;
   border-radius: 4px;
+  width: 80%;
 }
 
 .select {
@@ -353,6 +366,7 @@ select {
   box-sizing: border-box;
   border: 1px solid;
   margin-bottom: 30px;
+  box-shadow: 5px 5px 20px rgba(16, 17, 16, 0.534);
 }
 
 #detail-card img {
@@ -524,8 +538,14 @@ select {
 /* tour package hero heading styling */
 .tour-pac {
   text-align: center;
-  margin-top: -400px;
+  margin-top: -500px;
   text-align: start;
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
 }
 
 .tour-1 {
@@ -536,6 +556,13 @@ select {
   color: rgb(206, 143, 27);
   padding: 5px;
   font-size: 22px;
+  h5 {
+    font-size: 1.5rem;
+  }
+  img {
+    height: 30px;
+    width: 20px;
+  }
 }
 
 .sec-title {
@@ -687,8 +714,8 @@ span img {
 }
 
 .phone-contact1 {
- justify-content: space-between;
- padding: 5px;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .phone-contact1 img {
