@@ -887,3 +887,91 @@ p.paragraph {
   text-align: center;
   line-height: 24px;
 }
+
+/*mobile view styling */
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    background-color: #304f47;
+    padding-inline: 50px;
+  }
+
+  .banner-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    padding: 20px;
+  }
+
+  /* .social-media, */
+  .banner-item1,
+  .banner-item2 {
+    align-items: center;
+    gap: 16px;
+  }
+
+  .email-contact,
+  .phone-contact {
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header {
+    margin: 5px;
+  }
+
+  /* hero section styling */
+  .hero-section {
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .header-info1 {
+    /* text-align: center; */
+    justify-items: center;
+    margin-top: -135%;
+    margin-left: 40%;
+    h1 {
+      width: 350px;
+      font-family: Lora;
+      font-weight: 700;
+      font-size: 45px;
+    }
+    p {
+      font-family: Mulish;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+
+  .headline {
+    width: 350px;
+    text-align: center;
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .card-item {
+    grid-template-columns: repeat(1, 2);
+    overflow-y: hidden;
+  }
+}
