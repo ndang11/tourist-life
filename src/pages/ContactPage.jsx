@@ -8,9 +8,9 @@ export default function ContactPage() {
       <Hero />
       <section>
         <HeroSectionHeading
+          image="/images/Vector (1).png"tionHeading
           title="Contact"
           name="Home"
-          image="/images/Vector (1).png"
           description="Contact"
         />
       </section>

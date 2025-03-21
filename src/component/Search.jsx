@@ -7,8 +7,8 @@ export default function Search() {
         <div className="search-info">
           <input type="text" placeholder="Search activities or Destinations" className="input" />
           <div className="select">
+            <span>Guest</span>
             <select name="user" id="guest">
-              <p>Guest</p>
               <option value="user">Adult</option>
             </select>
             <select name="date" id="date">

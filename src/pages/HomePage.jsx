@@ -16,6 +16,14 @@ export default function HomePage() {
           title="Experience the beauty of Rwanda with us"
           description="Discover the Land of a Thousand Hills"
         />
+        <div className="arrow-btn">
+          <div className="btn-back">
+            <img src="/images/hback.png" alt="" />
+          </div>
+          <div className="arrow-forward">
+            <img src="/images/hforward.png" alt="" />
+          </div>
+        </div>
       </section>
       <Search />
       <section>
