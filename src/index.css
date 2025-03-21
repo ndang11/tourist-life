@@ -74,7 +74,7 @@ h2 {
   flex-direction: column;
   gap: 20px;
   border: 1px solid #e1e1e1;
-  width: 350px;
+  width: 352px;
   height: 550px;
   top: 1282px;
   left: 105px;
@@ -289,11 +289,18 @@ button {
 
 .arrow-btn {
   margin-top: 15%;
-  width: 1028px;
+  /* width: 1028px; */
+  display: flex;
+  width: 1110px;
 }
 
 .btn-back {
-  justify-items: flex-start;
+width: 120%;
+}
+
+.arrow-forward {
+  width: 120px;
+  margin-left: -10px;
 }
 
 /* search bar styling */
@@ -725,6 +732,9 @@ span img {
 .phone-contact1 {
   justify-content: space-between;
   padding: 5px;
+  span {
+    padding: 3px;
+  }
 }
 
 .phone-contact1 img {
@@ -766,6 +776,7 @@ span img {
 
   span {
     align-items: center;
+    padding: 3px;
   }
 }
 
