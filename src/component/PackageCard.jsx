@@ -9,7 +9,8 @@ export default function PackageCard({ image, title, description }) {
         <div className="package-detail">
           <h3 className="package-title">{title}</h3>
           <p className="package-p">{description}</p>
-          <Button label="Learn More" />
+          <a href="/package">
+          <Button label="Learn More" /></a>
         </div>
       </div>
     </>
