@@ -25,9 +25,6 @@ function App() {
     <div className={darkMode ? "dark-mode" : ""}></div>
       <Banner />
       <Header />
-      <button onClick={toggleDarkMode} className="dark-mode-toggle">
-          {darkMode ? "Light Mode" : "Dark Mode"}
-        </button>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
